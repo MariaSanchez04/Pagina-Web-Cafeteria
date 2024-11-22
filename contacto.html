@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos - Café Aroma</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>☕ Café Aroma</h1>
+      <p>Contáctanos</p>
+    </header>
+
+    <nav>
+      <!-- Convertidos en botones con la clase .btn-nav -->
+      <a href="index.html" class="btn-nav">Productos</a>
+      <a href="carrito.html" class="btn-nav">Carrito</a>
+      <a href="sobre-nosotros.html" class="btn-nav">Sobre Nosotros</a>
+      <a href="contacto.html" class="btn-nav">Contacto</a>
+    </nav>
+
+    <div class="container contacto">
+      <section class="formulario-contacto">
+        <h2>Contáctanos</h2>
+        <form id="contact-form">
+          <div class="form-grupo">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="form-grupo">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-grupo">
+            <label for="telefono">Teléfono (Opcional)</label>
+            <input type="tel" id="telefono" name="telefono" />
+          </div>
+          <div class="form-grupo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+      </section>
+
+      <section class="informacion-contacto">
+        <h2>Información de Contacto</h2>
+        <div class="info-detalles">
+          <p>🏠 Dirección: Cl. 56 #9 - 140, Bucaramanga, Santander</p>
+          <p>📞 Teléfono: (+57) 320587452</p>
+          <p>✉️ Email: cafearoma@gmail.com.com</p>
+          <p>⏰ Horarios: Lunes a Sábado 8:00 AM - 9:00 PM</p>
+        </div>
+
+        <div class="mapa-ubicacion">
+          <h3>Nuestra Ubicación</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.1881964010654!2d-73.1226494!3d7.104175499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fc61877b7b7%3A0xf54e5b5aea297149!2sCentro%20Comercial%20Acr%C3%B3polis!5e0!3m2!1ses!2sco!4v1732142364213!5m2!1ses!2sco"
+            width="550"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2024 Café Aroma - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="contacto.js"></script>
+  </body>
+</html>
