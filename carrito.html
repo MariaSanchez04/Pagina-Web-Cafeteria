@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrito - Café Aroma</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>🛒 Carrito de Compras</h1>
+      <h1>🛒 Carrito de Compras</h1>
     </header>
 
     <nav>
-        <!-- Se cambia el enlace por un botón con la clase .btn-nav -->
-        <a href="index.html" class="btn-nav">Volver a Productos</a>
+      <a href="index.html" class="btn-nav">Volver a Productos</a>
     </nav>
 
     <div class="container">
-        <section id="carrito" class="carrito">
-            <div id="lista-carrito"></div>
-            <p>Total: $<span id="total-carrito">0</span></p>
-            <div class="acciones-carrito">
-                <button id="btn-comprar" class="btn-nav">Finalizar Compra</button>
-                <button id="btn-vaciar" class="btn-nav">Vaciar Carrito</button>
-            </div>
-        </section>  
+      <section id="carrito" class="carrito">
+        <div id="lista-carrito"></div>
+        <p>Total: $<span id="total-carrito">0</span></p>
+        <div class="acciones-carrito">
+          <button id="btn-comprar" class="btn-nav">Finalizar Compra</button>
+          <button id="btn-vaciar" class="btn-nav">Vaciar Carrito</button>
+        </div>
+      </section>
     </div>
 
-    <!-- Alertas personalizadas -->
     <div id="alerta-vacia" class="alerta">
-        <span class="close-btn" onclick="cerrarAlerta()">×</span>
-        El carrito está vacío
+      <span class="close-btn" onclick="cerrarAlerta()">×</span>
+      El carrito está vacío
     </div>
 
     <div id="alerta-login" class="alerta">
-        <span class="close-btn" onclick="cerrarAlerta()">×</span>
-        Necesitas iniciar sesión para realizar la compra.
+      <span class="close-btn" onclick="cerrarAlerta()">×</span>
+      Necesitas iniciar sesión para realizar la compra.
     </div>
 
     <div id="alerta-compra" class="alerta success">
-        <span class="close-btn" onclick="cerrarAlerta()">×</span>
-        ¡Gracias por tu compra!
+      <span class="close-btn" onclick="cerrarAlerta()">×</span>
+      ¡Gracias por tu compra!
     </div>
 
     <footer>
-        <p>© 2024 Café Aroma - Todos los derechos reservados</p>
+      <p>© 2024 Café Aroma - Todos los derechos reservados</p>
     </footer>
 
     <script src="carrito.js"></script>
-</body>
+  </body>
 </html>

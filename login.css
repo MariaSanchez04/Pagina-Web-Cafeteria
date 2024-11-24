@@ -135,10 +135,10 @@ body {
   background-color: #b3794a;
 }
 .btn-volver {
-  width: auto;  /* Ancho ajustado al contenido */
-  padding: 10px 15px;  /* Espaciado interno */
-  margin-top: 10px;  /* Separación superior */
-  cursor: pointer;  /* Cambiar el cursor */
+  width: auto;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
   background-color: #d48d53;
   color: #fff;
   border-radius: 20px;
@@ -146,7 +146,6 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Efecto hover para el botón "Volver a la página" */
 .btn-volver:hover {
   background-color: #a77349;
 }
@@ -155,7 +154,6 @@ body {
   transform: translateY(-300%);
 }
 
-/*PERSONALIZACION DE MIS ALERTAS Y MENSAJES */
 .form div .alerta {
   width: 290px;
   text-align: left;
@@ -191,7 +189,6 @@ body {
   outline: solid 2px #9d2222;
 }
 
-/*RESPONSIVE FORM*/
 
 @media screen and (max-width: 750px) {
   html {
