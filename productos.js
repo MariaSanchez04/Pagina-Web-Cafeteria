@@ -9,7 +9,13 @@ class Producto {
 }
 
 const productos = [
-  new Producto(1, "Espresso Clásico", 7000, "./img/espresso.jpg", "jasjK"),
+  new Producto(
+    1,
+    "Espresso Clásico",
+    7000,
+    "./img/espresso.jpg",
+    "Café espresso tradicional con un sabor intenso y crema perfecta"
+  ),
   new Producto(
     2,
     "Cappuccino",
